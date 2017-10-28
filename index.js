@@ -24,3 +24,8 @@ appendKitten(name){
   var myArray = [...kitten,name]
   return myArray
 }
+
+prependKitten(name){
+  var myArray = [name,...kitten]
+  return myArray
+}
