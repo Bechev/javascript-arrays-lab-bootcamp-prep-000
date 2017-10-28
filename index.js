@@ -20,12 +20,12 @@ function destructivelyRemoveFirstKitten(){
   return kittens
 }
 
-appendKitten(name){
+function appendKitten(name){
   var myArray = [...kitten,name]
   return myArray
 }
 
-prependKitten(name){
+function prependKitten(name){
   var myArray = [name,...kitten]
   return myArray
 }
