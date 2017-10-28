@@ -1,6 +1,6 @@
 const kittens = ["Milo","Otis","Garfield"]
 const name = "Ralph"
 function destructivelyAppendKitten(name){
-  var myArray.push(name)
+  kittends.push(name)
   return myArray
 }
