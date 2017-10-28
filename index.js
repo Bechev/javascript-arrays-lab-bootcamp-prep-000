@@ -1,5 +1,5 @@
 const kittens = ["Milo","Otis","Garfield"]
-function destructivelyAppendKitten(name){
+function destructivelyAppendKitten("Ralph"){
   var myArray=[...kittens,name]
   return myArray
 }
